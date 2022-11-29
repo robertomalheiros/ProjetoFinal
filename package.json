@@ -1,0 +1,32 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "description": "Primeiro servidor da turma enap 92",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "production": "pm2 start index.js --name week7-back"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertomalheiros/ProjetoFinal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertomalheiros/ProjetoFinal/issues"
+  },
+  "homepage": "https://github.com/robertomalheiros/ProjetoFinal#readme"
+}
